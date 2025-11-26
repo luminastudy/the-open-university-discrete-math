@@ -1,12 +1,21 @@
 [
   {
+    "id": "ee24f92f-25c5-4b40-abef-4ae476e0db00",
+    "title": {
+      "he_text": "מתמטיקה דיסקרטית",
+      "en_text": "Discrete Mathematics"
+    },
+    "prerequisites": [],
+    "parents": []
+  },
+  {
     "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
     "title": {
       "he_text": "מבוא ללוגיקה",
       "en_text": "Introduction to Logic"
     },
     "prerequisites": [],
-    "parents": []
+    "parents": ["ee24f92f-25c5-4b40-abef-4ae476e0db00"]
   },
   {
     "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
@@ -17,7 +26,7 @@
     "prerequisites": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ],
-    "parents": []
+    "parents": ["ee24f92f-25c5-4b40-abef-4ae476e0db00"]
   },
   {
     "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
@@ -28,7 +37,7 @@
     "prerequisites": [
       "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
     ],
-    "parents": []
+    "parents": ["ee24f92f-25c5-4b40-abef-4ae476e0db00"]
   },
   {
     "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
@@ -39,6 +48,6 @@
     "prerequisites": [
       "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
     ],
-    "parents": []
+    "parents": ["ee24f92f-25c5-4b40-abef-4ae476e0db00"]
   }
 ]
